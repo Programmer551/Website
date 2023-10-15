@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.navbar {
+  background: url("img/bg.jpg");
+  background-size: cover;
+  height: 80px;
+  display: flex;
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 50px;
+  border: 0px solid black;
+  border-radius: 35px;
+  margin: 10px;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+  list-style: none;
+  margin: 30px 50px;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right input {
+  margin-left: 113px;
+  padding: 6px;
+  width: 220px;
+  border: 2px solid #d9c3c3;
+  border-radius: 7px;
+}
+.btn {
+  height: 35px;
+  width: 75px;
+  border: 2px solid white;
+  color: white;
+  border-radius: 7px;
+  font-size: 17px;
+  font-family: "Ubuntu", sans-serif;
+  background: none;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.one {
+  background: url("img/bg.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 440px;
+}
+.main {
+  height: 150px;
+  width: 150px;
+  border: 0px solid black;
+  border-radius: 200px;
+}
+.mainbtn {
+  height: 40px;
+  width: 120px;
+  border: 2px solid white;
+  color: white;
+  border-radius: 7px;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  background: none;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.container p {
+  font-size: 20px;
+  width: 400px;
+}
+.container h1 {
+  font-size: 41px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.margin {
+  margin-bottom: 200px;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.two {
+  margin-top: 50px;
+  /*	display: flex;*/
+}
+.text {
+  width: 800px;
+  margin: 0px 80px;
+}
+.img {
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.text-p {
+  font-size: 20px;
+}
+.text-h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+.flex-direction {
+  flex-direction: row-reverse;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.input {
+  height: 40px;
+  width: 750px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+.textarea {
+  height: 230px;
+  width: 750px;
+  border: 2px solid;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.h1form {
+  font-size: 50px;
+  font-family: inherit;
+  margin: 30px;
+}
+.submit {
+  height: 35px;
+  width: 75px;
+  border-radius: 7px;
+  font-size: 17px;
+  font-family: "Ubuntu", sans-serif;
+  background: none;
+  margin-left: 20px;
+  cursor: pointer;
+  border: 2px solid;
+  margin-right: 699px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.copyright {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 40px;
+}
+.hamburger {
+  background: white;
+  width: 46px;
+  height: 5px;
+  margin-bottom: 8px;
+  transition-property: all;
+  transition-duration: 1s;
+}
+#hamburger {
+  width: 200px;
+  height: 39px;
+  margin: 30px;
+  display: none;
+}
+
+html {
+  /* width: 99%; */
+  /* overflow: hidden; */
+  scroll-behavior: smooth;
+}
+.cross1 {
+  color: white;
+  transform: rotate(47deg);
+  position: relative;
+  top: 14px;
+  transition-property: all;
+  transition-duration: 1s;
+}
+.cross2 {
+  color: white;
+  transform: rotate(131deg);
+  transition-property: all;
+  transition-duration: 1s;
+}
+.none {
+  color: white;
+  display: none;
+}

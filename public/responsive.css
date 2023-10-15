@@ -1,0 +1,65 @@
+@media only screen and (max-width: 1150px) {
+  header {
+    position: static;
+  }
+  #hamburger {
+    display: block;
+  }
+  .navbar {
+    overflow: hidden;
+    flex-direction: column;
+  }
+  .left {
+    flex-direction: column;
+  }
+  ul {
+    flex-direction: column;
+  }
+  .animation {
+    overflow: unset;
+    height: 550px;
+    transition-property: all;
+    transition-duration: 1s;
+  }
+  .animation2 {
+    height: 80px;
+    overflow: hidden;
+    transition-property: all;
+    transition-duration: 1s;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .img {
+    margin-left: 100px;
+  }
+  .text {
+    width: 290px;
+  }
+  .flex-row {
+    flex-direction: column-reverse;
+  }
+  .flex-direction {
+    flex-direction: column-reverse;
+  }
+  .submit {
+    margin-left: 470px;
+  }
+  .input {
+    width: 300px;
+  }
+  .textarea {
+    width: 300px;
+  }
+  .one {
+    flex-direction: column-reverse;
+  }
+  .margin {
+    margin-bottom: 45px;
+  }
+  .container p {
+    width: 230px;
+  }
+  .container {
+    width: 360px;
+  }
+}
